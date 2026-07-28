@@ -33,7 +33,9 @@ nav a.on{background:var(--blue);border-color:var(--blue);color:#fff}
  .navin{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
  nav a{padding:9px 8px;font-size:12px;overflow:hidden;text-overflow:ellipsis}}
 
-.sec{margin-top:50px;scroll-margin-top:70px}
+/* 앵커 이동 시 스티키 네비에 가리지 않게. 모바일은 네비가 2열 4줄이라
+   높이가 배로 커진다 → JS 가 실측해 --navh 를 채운다(폴백 76px). */
+.sec{margin-top:50px;scroll-margin-top:calc(var(--navh,76px) + 14px)}
 .sec h2{font-size:24px;font-weight:900;letter-spacing:-.03em;display:flex;align-items:center;gap:10px}
 .rule{width:0;height:4px;border-radius:2px;background:var(--deal);transition:width .5s var(--enter)}
 .sec.in .rule{width:26px}
@@ -110,9 +112,9 @@ footer p+p{margin-top:6px}
   <p class="notice">이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.</p>
 </header>
 
-<nav><div class="navin"><a class="hl" href="#s85130961" data-t="s85130961">실시간 베스트</a><a class="gl" href="#s62702497" data-t="s62702497">슈퍼적립 베스트컬렉션</a><a class="" href="#s91271540" data-t="s91271540">물놀이 추천 BEST</a><a class="" href="#s70905944" data-t="s70905944">홈캉스 추천 BEST</a><a class="" href="#s58803425" data-t="s58803425">여름먹거리 추천 BEST</a><a class="" href="#s96291792" data-t="s96291792">캠핑&amp;차박 추천 BEST</a><a class="" href="#s13933362" data-t="s13933362">집콕취미템 추천 BEST</a><a class="" href="#s82927234" data-t="s82927234">피부케어 추천 BEST</a></div></nav>
+<nav><div class="navin"><a class="hl" href="#s23209196" data-t="s23209196">실시간 베스트</a><a class="gl" href="#s29547462" data-t="s29547462">슈퍼적립 베스트컬렉션</a><a class="" href="#s41374985" data-t="s41374985">물놀이 추천 BEST</a><a class="" href="#s61895013" data-t="s61895013">홈캉스 추천 BEST</a><a class="" href="#s60946940" data-t="s60946940">여름먹거리 추천 BEST</a><a class="" href="#s88925353" data-t="s88925353">캠핑&amp;차박 추천 BEST</a><a class="" href="#s69929311" data-t="s69929311">집콕취미템 추천 BEST</a><a class="" href="#s20707250" data-t="s20707250">피부케어 추천 BEST</a></div></nav>
 
-<section class="sec hotsec" id="s85130961">
+<section class="sec hotsec" id="s23209196">
       <h2><span class="flag">NOW</span>실시간 베스트</h2>
       <div class="grid">
       <a class="item hot reveal" href="https://naver.me/xbKypkMw"
@@ -200,7 +202,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec goldsec" id="s62702497">
+<section class="sec goldsec" id="s29547462">
       <h2><span class="flag gd">적립</span>슈퍼적립 베스트컬렉션</h2>
       <div class="grid">
       <a class="item hot reveal" href="https://naver.me/551aHBEi"
@@ -288,7 +290,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s91271540">
+<section class="sec" id="s41374985">
       <h2><span class="rule"></span>물놀이 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/Ge7xFlKB"
@@ -376,7 +378,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s70905944">
+<section class="sec" id="s61895013">
       <h2><span class="rule"></span>홈캉스 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/539HyPBa"
@@ -464,7 +466,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s58803425">
+<section class="sec" id="s60946940">
       <h2><span class="rule"></span>여름먹거리 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/GCJBUPgF"
@@ -552,7 +554,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s96291792">
+<section class="sec" id="s88925353">
       <h2><span class="rule"></span>캠핑&amp;차박 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/F6QN7FvQ"
@@ -640,7 +642,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s13933362">
+<section class="sec" id="s69929311">
       <h2><span class="rule"></span>집콕취미템 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/5NecLOEl"
@@ -728,7 +730,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s82927234">
+<section class="sec" id="s20707250">
       <h2><span class="rule"></span>피부케어 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/5CCjvEQn"
@@ -830,10 +832,20 @@ footer p+p{margin-top:6px}
     es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
   }, {rootMargin:'0px 0px -8% 0px'});
   document.querySelectorAll('.reveal,.sec').forEach(function(el){ rm ? el.classList.add('in') : io.observe(el); });
+  // 스티키 네비 실제 높이를 --navh 로 -> 앵커 스크롤이 첫 상품을 가리지 않는다
+  var navEl = document.querySelector('nav');
+  function navH(){
+    if(!navEl) return;
+    document.documentElement.style.setProperty('--navh', navEl.offsetHeight + 'px');
+  }
+  navH();
+  addEventListener('resize', navH, {passive:true});
+  if(window.ResizeObserver && navEl) new ResizeObserver(navH).observe(navEl);
+
   var em = document.querySelector('h1 em'); if(em && !rm) em.classList.add('sh');
   var links = [].slice.call(document.querySelectorAll('nav a')),
       secs = links.map(function(a){ return document.getElementById(a.dataset.t); });
-  function sync(){ var y = scrollY + 105, k = 0;
+  function sync(){ var y = scrollY + (navEl ? navEl.offsetHeight + 20 : 105), k = 0;
     secs.forEach(function(s,i){ if(s && s.offsetTop <= y) k = i; });
     links.forEach(function(a,i){ a.classList.toggle('on', i===k); }); }
   addEventListener('scroll', sync, {passive:true}); sync();
