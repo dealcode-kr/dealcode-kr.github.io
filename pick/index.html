@@ -7,11 +7,11 @@
 <style>
 /* 톤 조정(2026-07-28): 기존이 너무 어두워 상품 사진만 뜨고 페이지가 가라앉았다.
    배경·서피스를 한 단계 올리고 글자 대비를 키웠다. 액센트도 조금 밝게. */
-:root{--ink:#161b24;--sf:#1f2632;--line:#333d4d;--tx:#f7f9fc;--mut:#a9b6c6;--dim:#8391a3;
+:root{--ink:#1d232e;--sf:#28303d;--line:#3d4859;--tx:#f9fbfd;--mut:#b5c1cf;--dim:#8e9bab;
  --blue:#4a7cf0;--deal:#ff5060;--gold:#ffcb5e;
  --settle:cubic-bezier(0,.65,.51,.99);--enter:cubic-bezier(.2,.75,.34,.94)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--ink);background-image:radial-gradient(1100px 420px at 50% -140px,rgba(74,124,240,.20),transparent 62%);background-repeat:no-repeat;color:var(--tx);font-family:Pretendard,-apple-system,'Malgun Gothic',sans-serif;
+body{background:var(--ink);background-image:radial-gradient(1200px 460px at 50% -150px,rgba(74,124,240,.26),transparent 62%);background-repeat:no-repeat;color:var(--tx);font-family:Pretendard,-apple-system,'Malgun Gothic',sans-serif;
  line-height:1.6;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
 .wrap{max-width:920px;margin:0 auto;padding:0 18px 80px}
 header{padding:52px 0 20px;text-align:center}
@@ -22,12 +22,12 @@ h1 em{font-style:normal;color:var(--gold);position:relative;display:inline-block
 
 /* 카테고리 — 가로 스크롤 대신 **병렬 배치**(네이버식). 한 화면에 전부 보인다 */
 nav{position:sticky;top:0;z-index:20;margin-top:22px;padding:11px 0 12px;
- background:rgba(22,27,36,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+ background:rgba(29,35,46,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .navin{display:flex;flex-wrap:wrap;gap:6px}
 nav a{flex:1 1 auto;min-width:0;text-align:center;padding:9px 13px;border-radius:10px;
  background:var(--sf);border:1px solid var(--line);color:var(--mut);text-decoration:none;
  font-size:13px;font-weight:700;white-space:nowrap;transition:.16s var(--enter)}
-nav a:hover{color:var(--tx);border-color:#4a5769;background:#28313f}
+nav a:hover{color:var(--tx);border-color:#566578;background:#323c4b}
 nav a.on{background:var(--blue);border-color:var(--blue);color:#fff}
 @media(max-width:620px){
  .navin{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
@@ -54,7 +54,7 @@ nav a.on{background:var(--blue);border-color:var(--blue);color:#fff}
  border:1px solid rgba(255,193,77,.32)}
 .goldsec h2{font-size:26px}
 .flag.gd{background:var(--gold);color:#3a2a00;box-shadow:none}
-.goldsec .item{background:#2a2419;border-color:rgba(255,193,77,.26)}
+.goldsec .item{background:#332c1e;border-color:rgba(255,193,77,.26)}
 .goldsec .item:hover{border-color:var(--gold)}
 nav a.hl{background:rgba(255,59,78,.16);border-color:rgba(255,59,78,.5);color:#ffb3ba}
 nav a.hl.on{background:var(--deal);border-color:var(--deal);color:#fff}
@@ -63,8 +63,8 @@ nav a.gl.on{background:var(--gold);border-color:var(--gold);color:#3a2a00}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:13px;margin-top:18px}
 .item{display:flex;gap:13px;padding:13px;background:var(--sf);border:1px solid var(--line);box-shadow:0 1px 0 rgba(255,255,255,.03) inset;
  border-radius:14px;text-decoration:none;color:inherit;transition:.2s var(--enter)}
-.item:hover{border-color:#5a6a86;transform:translateY(-2px)}
-.item.hot{background:#2a1f24;border-color:rgba(255,59,78,.3)}
+.item:hover{border-color:#6a7b96;transform:translateY(-2px)}
+.item.hot{background:#33242a;border-color:rgba(255,59,78,.3)}
 .item.hot:hover{border-color:var(--deal)}
 .ph{flex:0 0 92px;position:relative}
 .ph img{width:92px;height:92px;object-fit:contain;background:#fff;border-radius:9px}
@@ -74,11 +74,11 @@ nav a.gl.on{background:var(--gold);border-color:var(--gold);color:#3a2a00}
 .bg.plain{background:rgba(0,0,0,.66)}
 .txt{flex:1;min-width:0;display:flex;flex-direction:column}
 .hook{font-size:15px;font-weight:700;color:#fff;line-height:1.42;letter-spacing:-.01em}
-.nm{margin-top:5px;font-size:11.5px;color:#9aa7b8;line-height:1.4;
+.nm{margin-top:5px;font-size:11.5px;color:#a3b0c0;line-height:1.4;
  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
-.cpn{display:inline-block;margin-top:6px;margin-right:4px;font-size:11.5px;
- color:#8fd0ff;background:rgba(59,111,224,.16);border:1px solid rgba(90,150,255,.34);
- padding:2px 8px;border-radius:6px;line-height:1.5;font-weight:600}
+.cpn{display:inline-block;margin-top:6px;margin-right:4px;font-size:12px;
+ color:#bfe0ff;background:rgba(74,124,240,.26);border:1px solid rgba(120,175,255,.5);
+ padding:3px 9px;border-radius:6px;line-height:1.5;font-weight:700}
 .perk{display:inline-block;margin-top:6px;font-size:11.5px;color:#ffd07a;
  background:rgba(255,193,77,.12);border:1px solid rgba(255,193,77,.3);
  padding:2px 8px;border-radius:6px;line-height:1.5}
@@ -105,14 +105,14 @@ footer p+p{margin-top:6px}
  .hotsec.in .flag{animation:none} .item{transition:none}}
 </style></head><body><div class="wrap">
 <header>
-  <h1>지금 <em>당신한테 필요한 것</em>만<br>모아뒀습니다</h1>
-  <p class="sub">고민할 시간에 그냥 사세요. 여기 있는 게 답입니다.</p>
+  <h1>지금 사야 <em>혜택을 다 챙깁니다</em></h1>
+  <p class="sub">알림 등록하면 추가 할인. 1+1에 사은품까지 붙습니다.</p>
   <p class="notice">이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.</p>
 </header>
 
-<nav><div class="navin"><a class="hl" href="#s87623790" data-t="s87623790">실시간 베스트</a><a class="gl" href="#s50423565" data-t="s50423565">슈퍼적립 베스트컬렉션</a><a class="" href="#s10900964" data-t="s10900964">물놀이 추천 BEST</a><a class="" href="#s6558750" data-t="s6558750">홈캉스 추천 BEST</a><a class="" href="#s8640175" data-t="s8640175">여름먹거리 추천 BEST</a><a class="" href="#s51123712" data-t="s51123712">캠핑&amp;차박 추천 BEST</a><a class="" href="#s44266924" data-t="s44266924">집콕취미템 추천 BEST</a><a class="" href="#s39680182" data-t="s39680182">피부케어 추천 BEST</a></div></nav>
+<nav><div class="navin"><a class="hl" href="#s85130961" data-t="s85130961">실시간 베스트</a><a class="gl" href="#s62702497" data-t="s62702497">슈퍼적립 베스트컬렉션</a><a class="" href="#s91271540" data-t="s91271540">물놀이 추천 BEST</a><a class="" href="#s70905944" data-t="s70905944">홈캉스 추천 BEST</a><a class="" href="#s58803425" data-t="s58803425">여름먹거리 추천 BEST</a><a class="" href="#s96291792" data-t="s96291792">캠핑&amp;차박 추천 BEST</a><a class="" href="#s13933362" data-t="s13933362">집콕취미템 추천 BEST</a><a class="" href="#s82927234" data-t="s82927234">피부케어 추천 BEST</a></div></nav>
 
-<section class="sec hotsec" id="s87623790">
+<section class="sec hotsec" id="s85130961">
       <h2><span class="flag">NOW</span>실시간 베스트</h2>
       <div class="grid">
       <a class="item hot reveal" href="https://naver.me/xbKypkMw"
@@ -121,8 +121,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">아침에 뭐라도 챙겨 먹으려면</span>
-          <span class="nm">무가당 국산 서리태 콩물 20개</span>
-          <span class="cpn">🔔 알림 등록 시 500원 추가</span>
+          <span class="nm">서리태 콩물 20개</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.79</b>
             <span class="rv">리뷰 4,058</span></span>
@@ -135,8 +135,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">기름 하나 바꾸면 맛이 다릅니다</span>
-          <span class="nm">유기농 냉압착 올리브오일 500ml</span>
-          
+          <span class="nm">올리브오일 500ml</span>
+          <span class="cpn">🔔 알림시 5% 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.83</b>
             <span class="rv">리뷰 4,869</span></span>
@@ -149,7 +149,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">냉장고에 두고 하나씩</span>
-          <span class="nm">국산콩 참발효 낫또 24개</span>
+          <span class="nm">참발효 낫또 24개</span>
           
           <span class="perk">🎁 낫또의 강력하고 풍부한 실의 힘을 직접확인해 보세요</span>
           <span class="meta"><b class="st">★4.85</b>
@@ -163,7 +163,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">카페인 없어서 저녁에도</span>
-          <span class="nm">카페인 없는 호박팥차 티백</span>
+          <span class="nm">호박팥차 티백</span>
           
           <span class="perk">🎁 무료배송(2개부터) , 3개구매시 +1 추가증정</span>
           <span class="meta"><b class="st">★4.79</b>
@@ -177,8 +177,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">지금 아니면 내년까지</span>
-          <span class="nm">지금이 제철인 신비복숭아</span>
-          
+          <span class="nm">신비복숭아</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.75</b>
             <span class="rv">리뷰 10,291</span></span>
@@ -191,8 +191,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">냄새 없이 청국장 먹는 법</span>
-          <span class="nm">냄새 덜한 청국장 가루 500g</span>
-          
+          <span class="nm">청국장 가루 500g</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           <span class="perk">🎁 알림 받기 동의 시 1000원 할인</span>
           <span class="meta"><b class="st">★4.84</b>
             <span class="rv">리뷰 10,829</span></span>
@@ -200,7 +200,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec goldsec" id="s50423565">
+<section class="sec goldsec" id="s62702497">
       <h2><span class="flag gd">적립</span>슈퍼적립 베스트컬렉션</h2>
       <div class="grid">
       <a class="item hot reveal" href="https://naver.me/551aHBEi"
@@ -209,7 +209,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">머리 말리는 시간 줄이기</span>
-          <span class="nm">빨리 마르는 BLDC 드라이기</span>
+          <span class="nm">BLDC 드라이기</span>
           
           
           <span class="meta"><b class="st">★4.86</b>
@@ -223,8 +223,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">차에서 선 꽂기 귀찮으면</span>
-          <span class="nm">선 없이 쓰는 무선 카플레이</span>
-          
+          <span class="nm">무선 카플레이 동글</span>
+          <span class="cpn">🔔 알림시 10,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.78</b>
             <span class="rv">리뷰 5,255</span></span>
@@ -251,7 +251,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">집 비울 때 마음 편하려면</span>
-          <span class="nm">집 보는 스마트 홈캠 3MP</span>
+          <span class="nm">스마트 홈캠 3MP</span>
           
           
           <span class="meta"><b class="st">★4.85</b>
@@ -265,8 +265,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">물 끓이는 데 3분이면</span>
-          <span class="nm">빨리 끓는 전기포트 1.5L</span>
-          <span class="cpn">🔔 알림 등록 시 1,000원 추가</span>
+          <span class="nm">전기포트 1.5L</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.77</b>
             <span class="rv">리뷰 3,449</span></span>
@@ -279,7 +279,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">발이 안 닿으면 허리가 아픕니다</span>
-          <span class="nm">높이 2단 조절 발받침</span>
+          <span class="nm">2단 조절 발받침</span>
           
           
           <span class="meta"><b class="st">★4.76</b>
@@ -288,7 +288,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s10900964">
+<section class="sec" id="s91271540">
       <h2><span class="rule"></span>물놀이 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/Ge7xFlKB"
@@ -297,7 +297,7 @@ footer p+p{margin-top:6px}
           <span class="phb"><span class="bg hot">1+1</span></span></span>
         <span class="txt">
           <span class="hook">계곡 바닥은 맨발로 못 갑니다</span>
-          <span class="nm">물 잘 빠지는 아쿠아슈즈</span>
+          <span class="nm">아쿠아슈즈 (물빠짐)</span>
           
           
           <span class="meta"><b class="st">★4.87</b>
@@ -311,8 +311,8 @@ footer p+p{margin-top:6px}
           <span class="phb"><span class="bg hot">1+1</span></span></span>
         <span class="txt">
           <span class="hook">숨 참는 스노클링은 끝</span>
-          <span class="nm">숨 쉬며 보는 풀페이스 스노클 2개</span>
-          
+          <span class="nm">풀페이스 스노클 2개</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           <span class="perk">🎁 1+1 할인, 단 7일만~ 다시 없을 특가!</span>
           <span class="meta"><b class="st">★4.81</b>
             <span class="rv">리뷰 8,890</span></span>
@@ -326,7 +326,7 @@ footer p+p{margin-top:6px}
         <span class="txt">
           <span class="hook">물가에서 폰 젖으면 끝입니다</span>
           <span class="nm">폰 넣고 물에 들어가는 방수팩</span>
-          <span class="cpn">🔔 알림 등록 시 10% 추가</span>
+          <span class="cpn">🔔 알림시 10% 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.74</b>
             <span class="rv">리뷰 1,010</span></span>
@@ -338,7 +338,7 @@ footer p+p{margin-top:6px}
         <span class="ph"><img src="https://shop-phinf.pstatic.net/20260625_173/1782361819483cslyr_JPEG/116494703601669295_700064762.jpg" alt="" loading="lazy">
           </span>
         <span class="txt">
-          <span class="hook">애들은 물가에서 꼭 미끄러집니다</span>
+          <span class="hook">물가에선 미끄러집니다</span>
           <span class="nm">신고 벗기 쉬운 유아 아쿠아슈즈</span>
           
           
@@ -367,7 +367,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">접어서 가방에 넣는 물안경</span>
-          <span class="nm">접어서 넣는 스노클 마스크</span>
+          <span class="nm">접이식 스노클 마스크</span>
           
           <span class="perk">🎁 다이비프로 카카오채널 친구추가시 2천원 할인쿠폰 상시지급 이벤트</span>
           <span class="meta"><b class="st">★4.85</b>
@@ -376,7 +376,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s6558750">
+<section class="sec" id="s70905944">
       <h2><span class="rule"></span>홈캉스 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/539HyPBa"
@@ -385,8 +385,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">에어컨 켜도 이불이 더우면</span>
-          <span class="nm">양면으로 쓰는 냉감 차렵이불 SS</span>
-          <span class="cpn">🔔 알림 등록 시 5% 추가</span>
+          <span class="nm">냉감 차렵이불 SS</span>
+          <span class="cpn">🔔 알림시 5% 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.73</b>
             <span class="rv">리뷰 8,524</span></span>
@@ -399,8 +399,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">여름 이불은 세탁이 쉬워야</span>
-          <span class="nm">싱글·슈퍼싱글 겸용 냉감이불</span>
-          <span class="cpn">🔔 알림 등록 시 5% 추가</span>
+          <span class="nm">냉감 차렵이불 (싱글 겸용)</span>
+          <span class="cpn">🔔 알림시 5% 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.80</b>
             <span class="rv">리뷰 5,781</span></span>
@@ -413,8 +413,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">방향 바꾸러 일어나기 싫으면</span>
-          <span class="nm">자동회전 무선 집게 선풍기</span>
-          
+          <span class="nm">집게형 무선 선풍기</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.90</b>
             <span class="rv">리뷰 2,745</span></span>
@@ -426,10 +426,10 @@ footer p+p{margin-top:6px}
         <span class="ph"><img src="https://shop-phinf.pstatic.net/20260429_226/17774312658806MHKE_JPEG/34914285670647470_831737891.jpg" alt="" loading="lazy">
           </span>
         <span class="txt">
-          <span class="hook">발로 켜는 게 의외로 편합니다</span>
-          <span class="nm">발로 켜는 저소음 스탠드 선풍기</span>
+          <span class="hook">발로 켜면 안 일어나도 됩니다</span>
+          <span class="nm">풋터치 스탠드 선풍기</span>
           
-          <span class="perk">🎁 많이 살수록 할인율 up! 고민은 배송만 늦출 뿐 🚚💨</span>
+          
           <span class="meta"><b class="st">★4.70</b>
             <span class="rv">리뷰 9,009</span></span>
           <span class="buy"><b>39,800</b><em>원</em><i>바로 보기 →</i></span>
@@ -441,7 +441,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">손풍기는 바람 세기가 전부</span>
-          <span class="nm">바람 100단 손선풍기</span>
+          <span class="nm">손선풍기 100단</span>
           
           
           <span class="meta"><b class="st">★4.90</b>
@@ -455,7 +455,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">베개만 바꿔도 잠이 달라집니다</span>
-          <span class="nm">냉감 커버 포함 경추 베개</span>
+          <span class="nm">경추 베개 + 냉감 커버</span>
           
           
           <span class="meta"><b class="st">★4.66</b>
@@ -464,7 +464,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s8640175">
+<section class="sec" id="s58803425">
       <h2><span class="rule"></span>여름먹거리 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/GCJBUPgF"
@@ -473,8 +473,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">육수 낼 시간에 한 알이면</span>
-          <span class="nm">물에 넣기만 하는 고체 육수</span>
-          <span class="cpn">🔔 알림 등록 시 10% 추가</span>
+          <span class="nm">고체 육수 2+1</span>
+          <span class="cpn">🔔 알림시 10% 추가 할인!</span>
           <span class="perk">🎁 2병 구매 시 휴대용1병 증정</span>
           <span class="meta"><b class="st">★4.81</b>
             <span class="rv">리뷰 45,125</span></span>
@@ -487,8 +487,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">오후에 마셔도 잠 안 깨는 커피</span>
-          <span class="nm">늦은 오후에도 마시는 디카페인 20개</span>
-          
+          <span class="nm">디카페인 아메리카노 20개</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.89</b>
             <span class="rv">리뷰 46,584</span></span>
@@ -501,7 +501,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">여름엔 결국 냉면입니다</span>
-          <span class="nm">물·비빔 골라 담는 냉면 10인분</span>
+          <span class="nm">냉면 10인분 (물·비빔)</span>
           
           
           <span class="meta"><b class="st">★4.83</b>
@@ -515,8 +515,8 @@ footer p+p{margin-top:6px}
           <span class="phb"><span class="bg plain">10개입</span></span></span>
         <span class="txt">
           <span class="hook">줄 서서 먹던 걸 집에서</span>
-          <span class="nm">에어프라이어로 데우는 춘천 감자빵</span>
-          
+          <span class="nm">춘천 감자빵 10개입</span>
+          <span class="cpn">🔔 알림시 7% 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.87</b>
             <span class="rv">리뷰 23,133</span></span>
@@ -528,9 +528,9 @@ footer p+p{margin-top:6px}
         <span class="ph"><img src="https://shop-phinf.pstatic.net/20251205_283/1764915180936toey2_PNG/19605036856598922_1244983280.png" alt="" loading="lazy">
           </span>
         <span class="txt">
-          <span class="hook">단백질 챙기기 제일 쉬운 방법</span>
-          <span class="nm">우유맛 나는 단백질 음료 18개</span>
-          
+          <span class="hook">단백질은 마시는 게 빠릅니다</span>
+          <span class="nm">단백질 음료 18개</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.90</b>
             <span class="rv">리뷰 75,684</span></span>
@@ -543,8 +543,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">집에서 눈꽃빙수 갈아 먹기</span>
-          <span class="nm">충전해서 쓰는 무선 빙수기</span>
-          
+          <span class="nm">무선 빙수기</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.81</b>
             <span class="rv">리뷰 868</span></span>
@@ -552,7 +552,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s51123712">
+<section class="sec" id="s96291792">
       <h2><span class="rule"></span>캠핑&amp;차박 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/F6QN7FvQ"
@@ -561,8 +561,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">아침 차리기 싫은 날</span>
-          <span class="nm">한 끼 되는 수제 그래놀라 2종</span>
-          
+          <span class="nm">수제 그래놀라 2종</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.89</b>
             <span class="rv">리뷰 1,682</span></span>
@@ -575,7 +575,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">손에 뭘 들고 뛰면 오래 못 갑니다</span>
-          <span class="nm">포켓 넉넉한 경량 러닝 조끼</span>
+          <span class="nm">경량 러닝 조끼</span>
           
           
           <span class="meta"><b class="st">★4.87</b>
@@ -589,8 +589,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">손 쓰면서 바람 쐬는 법</span>
-          <span class="nm">손 안 쓰는 허리·목 선풍기</span>
-          
+          <span class="nm">허리 클립 선풍기</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           <span class="perk">🎁 [넥풍기용 목걸이 스트랩 100% 무료 증정]</span>
           <span class="meta"><b class="st">★4.81</b>
             <span class="rv">리뷰 1,347</span></span>
@@ -603,8 +603,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">캠핑에서 폰 꺼지면 답 없습니다</span>
-          <span class="nm">케이블 일체형 45W 보조배터리</span>
-          
+          <span class="nm">보조배터리 10000mAh 45W</span>
+          <span class="cpn">🔔 알림시 3% 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.91</b>
             <span class="rv">리뷰 2,345</span></span>
@@ -617,8 +617,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">차에 두고 하나씩 집어 먹는</span>
-          <span class="nm">하루견과 믹스넛 500g</span>
-          <span class="cpn">🔔 알림 등록 시 100원 추가</span>
+          <span class="nm">믹스넛 500g</span>
+          <span class="cpn">🔔 알림시 100원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.88</b>
             <span class="rv">리뷰 853</span></span>
@@ -631,7 +631,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">끓일 것 없이 데우기만 하면</span>
-          <span class="nm">데우기만 하는 전복죽 5팩</span>
+          <span class="nm">전복죽 5팩</span>
           
           
           <span class="meta"><b class="st">★4.89</b>
@@ -640,7 +640,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s44266924">
+<section class="sec" id="s13933362">
       <h2><span class="rule"></span>집콕취미템 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/5NecLOEl"
@@ -649,7 +649,7 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">해 뜰 때마다 눈 찡그렸다면</span>
-          <span class="nm">빛 따라 변하는 초경량 스포츠 고글</span>
+          <span class="nm">변색 스포츠 고글</span>
           
           
           <span class="meta"><b class="st">★4.80</b>
@@ -663,8 +663,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">헬스장 안 가고 턱걸이</span>
-          <span class="nm">수평계 주는 문틀 철봉</span>
-          <span class="cpn">🔔 알림 등록 시 1,000원 추가</span>
+          <span class="nm">문틀 철봉</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.85</b>
             <span class="rv">리뷰 18,812</span></span>
@@ -676,9 +676,9 @@ footer p+p{margin-top:6px}
         <span class="ph"><img src="https://shop-phinf.pstatic.net/20220811_176/1660200273694kkPBe_JPEG/61336057334728862_1027609308.jpg" alt="" loading="lazy">
           </span>
         <span class="txt">
-          <span class="hook">여름 야외 운동엔 필수</span>
-          <span class="nm">얼굴 덮는 자외선 차단 마스크</span>
-          <span class="cpn">🔔 알림 등록 시 500원 추가</span>
+          <span class="hook">여름 야외 운동은 얼굴부터</span>
+          <span class="nm">자외선 차단 마스크</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.83</b>
             <span class="rv">리뷰 126,061</span></span>
@@ -691,8 +691,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">35g, 손목이 편해집니다</span>
-          <span class="nm">35g 초경량 무선 게이밍 마우스</span>
-          <span class="cpn">🔔 알림 등록 시 500원 추가</span>
+          <span class="nm">게이밍 마우스 35g</span>
+          <span class="cpn">🔔 알림시 500원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.90</b>
             <span class="rv">리뷰 2,312</span></span>
@@ -704,8 +704,8 @@ footer p+p{margin-top:6px}
         <span class="ph"><img src="https://shop-phinf.pstatic.net/20231211_215/1702269035646a2Keb_JPEG/103404878348664313_516780342.jpg" alt="" loading="lazy">
           </span>
         <span class="txt">
-          <span class="hook">책상이 넓어지는 가장 빠른 방법</span>
-          <span class="nm">책상 넓어지는 모니터 암</span>
+          <span class="hook">모니터 아래가 비면 책상이 넓어집니다</span>
+          <span class="nm">모니터 암</span>
           
           
           <span class="meta"><b class="st">★4.89</b>
@@ -719,8 +719,8 @@ footer p+p{margin-top:6px}
           </span>
         <span class="txt">
           <span class="hook">날씨 상관없이 계단 오르기</span>
-          <span class="nm">층간소음 적은 에어 스텝퍼</span>
-          <span class="cpn">🔔 알림 등록 시 1,000원 추가</span>
+          <span class="nm">에어 스텝퍼</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.80</b>
             <span class="rv">리뷰 24,793</span></span>
@@ -728,7 +728,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s39680182">
+<section class="sec" id="s82927234">
       <h2><span class="rule"></span>피부케어 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/5CCjvEQn"
@@ -738,7 +738,7 @@ footer p+p{margin-top:6px}
         <span class="txt">
           <span class="hook">환절기마다 뒤집어진다면</span>
           <span class="nm">시카·판테놀 크림 50ml</span>
-          <span class="cpn">🔔 알림 등록 시 1,000원 추가</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.80</b>
             <span class="rv">리뷰 15,102</span></span>
@@ -780,7 +780,7 @@ footer p+p{margin-top:6px}
         <span class="txt">
           <span class="hook">쓰던 걸 계속 쓰려면 2개입</span>
           <span class="nm">시카·판테놀 크림 50ml</span>
-          <span class="cpn">🔔 알림 등록 시 1,000원 추가</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.87</b>
             <span class="rv">리뷰 2,651</span></span>
@@ -794,7 +794,7 @@ footer p+p{margin-top:6px}
         <span class="txt">
           <span class="hook">샴푸는 떨어지기 전에 사둡니다</span>
           <span class="nm">샴푸 475ml 2개 세트</span>
-          
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           
           <span class="meta"><b class="st">★4.83</b>
             <span class="rv">리뷰 15,892</span></span>
@@ -806,9 +806,9 @@ footer p+p{margin-top:6px}
         <span class="ph"><img src="https://shop-phinf.pstatic.net/20260513_148/1778652936922oVSCF_JPEG/28322911040728522_137080055.jpg" alt="" loading="lazy">
           </span>
         <span class="txt">
-          <span class="hook">리뷰 20만 건이 넘는 가루</span>
-          <span class="nm">저분자 피쉬 콜라겐 150g</span>
-          
+          <span class="hook">리뷰 20만 건</span>
+          <span class="nm">피쉬 콜라겐 150g</span>
+          <span class="cpn">🔔 알림시 1,000원 추가 할인!</span>
           <span class="perk">🎁 모든 구매 고객 사은품 증정</span>
           <span class="meta"><b class="st">★4.72</b>
             <span class="rv">리뷰 206,764</span></span>
