@@ -5,11 +5,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800;900&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#0b0e14;--sf:#141922;--line:#222b37;--tx:#f0f4f9;--mut:#93a0b1;--dim:#68737f;
- --blue:#3b6fe0;--deal:#ff3b4e;--gold:#ffc14d;
+/* 톤 조정(2026-07-28): 기존이 너무 어두워 상품 사진만 뜨고 페이지가 가라앉았다.
+   배경·서피스를 한 단계 올리고 글자 대비를 키웠다. 액센트도 조금 밝게. */
+:root{--ink:#161b24;--sf:#1f2632;--line:#333d4d;--tx:#f7f9fc;--mut:#a9b6c6;--dim:#8391a3;
+ --blue:#4a7cf0;--deal:#ff5060;--gold:#ffcb5e;
  --settle:cubic-bezier(0,.65,.51,.99);--enter:cubic-bezier(.2,.75,.34,.94)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--ink);color:var(--tx);font-family:Pretendard,-apple-system,'Malgun Gothic',sans-serif;
+body{background:var(--ink);background-image:radial-gradient(1100px 420px at 50% -140px,rgba(74,124,240,.20),transparent 62%);background-repeat:no-repeat;color:var(--tx);font-family:Pretendard,-apple-system,'Malgun Gothic',sans-serif;
  line-height:1.6;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
 .wrap{max-width:920px;margin:0 auto;padding:0 18px 80px}
 header{padding:52px 0 20px;text-align:center}
@@ -20,12 +22,12 @@ h1 em{font-style:normal;color:var(--gold);position:relative;display:inline-block
 
 /* 카테고리 — 가로 스크롤 대신 **병렬 배치**(네이버식). 한 화면에 전부 보인다 */
 nav{position:sticky;top:0;z-index:20;margin-top:22px;padding:11px 0 12px;
- background:rgba(11,14,20,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+ background:rgba(22,27,36,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .navin{display:flex;flex-wrap:wrap;gap:6px}
 nav a{flex:1 1 auto;min-width:0;text-align:center;padding:9px 13px;border-radius:10px;
  background:var(--sf);border:1px solid var(--line);color:var(--mut);text-decoration:none;
  font-size:13px;font-weight:700;white-space:nowrap;transition:.16s var(--enter)}
-nav a:hover{color:var(--tx);border-color:#3b4757;background:#1a212b}
+nav a:hover{color:var(--tx);border-color:#4a5769;background:#28313f}
 nav a.on{background:var(--blue);border-color:var(--blue);color:#fff}
 @media(max-width:620px){
  .navin{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
@@ -52,17 +54,17 @@ nav a.on{background:var(--blue);border-color:var(--blue);color:#fff}
  border:1px solid rgba(255,193,77,.32)}
 .goldsec h2{font-size:26px}
 .flag.gd{background:var(--gold);color:#3a2a00;box-shadow:none}
-.goldsec .item{background:#1a1712;border-color:rgba(255,193,77,.26)}
+.goldsec .item{background:#2a2419;border-color:rgba(255,193,77,.26)}
 .goldsec .item:hover{border-color:var(--gold)}
 nav a.hl{background:rgba(255,59,78,.16);border-color:rgba(255,59,78,.5);color:#ffb3ba}
 nav a.hl.on{background:var(--deal);border-color:var(--deal);color:#fff}
 nav a.gl{background:rgba(255,193,77,.14);border-color:rgba(255,193,77,.45);color:#ffd995}
 nav a.gl.on{background:var(--gold);border-color:var(--gold);color:#3a2a00}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:13px;margin-top:18px}
-.item{display:flex;gap:13px;padding:13px;background:var(--sf);border:1px solid var(--line);
+.item{display:flex;gap:13px;padding:13px;background:var(--sf);border:1px solid var(--line);box-shadow:0 1px 0 rgba(255,255,255,.03) inset;
  border-radius:14px;text-decoration:none;color:inherit;transition:.2s var(--enter)}
-.item:hover{border-color:#42506a;transform:translateY(-2px)}
-.item.hot{background:#1a141a;border-color:rgba(255,59,78,.3)}
+.item:hover{border-color:#5a6a86;transform:translateY(-2px)}
+.item.hot{background:#2a1f24;border-color:rgba(255,59,78,.3)}
 .item.hot:hover{border-color:var(--deal)}
 .ph{flex:0 0 92px;position:relative}
 .ph img{width:92px;height:92px;object-fit:contain;background:#fff;border-radius:9px}
@@ -72,7 +74,7 @@ nav a.gl.on{background:var(--gold);border-color:var(--gold);color:#3a2a00}
 .bg.plain{background:rgba(0,0,0,.66)}
 .txt{flex:1;min-width:0;display:flex;flex-direction:column}
 .hook{font-size:15px;font-weight:700;color:#fff;line-height:1.42;letter-spacing:-.01em}
-.nm{margin-top:5px;font-size:11px;color:var(--dim);line-height:1.4;
+.nm{margin-top:5px;font-size:11.5px;color:#9aa7b8;line-height:1.4;
  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .cpn{display:inline-block;margin-top:6px;margin-right:4px;font-size:11.5px;
  color:#8fd0ff;background:rgba(59,111,224,.16);border:1px solid rgba(90,150,255,.34);
@@ -108,9 +110,9 @@ footer p+p{margin-top:6px}
   <p class="notice">이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.</p>
 </header>
 
-<nav><div class="navin"><a class="hl" href="#s7704220" data-t="s7704220">실시간 베스트</a><a class="gl" href="#s18019258" data-t="s18019258">슈퍼적립 베스트컬렉션</a><a class="" href="#s58138099" data-t="s58138099">물놀이 추천 BEST</a><a class="" href="#s33987265" data-t="s33987265">홈캉스 추천 BEST</a><a class="" href="#s96026716" data-t="s96026716">여름먹거리 추천 BEST</a><a class="" href="#s50255192" data-t="s50255192">캠핑&amp;차박 추천 BEST</a><a class="" href="#s18589704" data-t="s18589704">집콕취미템 추천 BEST</a><a class="" href="#s10913142" data-t="s10913142">피부케어 추천 BEST</a></div></nav>
+<nav><div class="navin"><a class="hl" href="#s87623790" data-t="s87623790">실시간 베스트</a><a class="gl" href="#s50423565" data-t="s50423565">슈퍼적립 베스트컬렉션</a><a class="" href="#s10900964" data-t="s10900964">물놀이 추천 BEST</a><a class="" href="#s6558750" data-t="s6558750">홈캉스 추천 BEST</a><a class="" href="#s8640175" data-t="s8640175">여름먹거리 추천 BEST</a><a class="" href="#s51123712" data-t="s51123712">캠핑&amp;차박 추천 BEST</a><a class="" href="#s44266924" data-t="s44266924">집콕취미템 추천 BEST</a><a class="" href="#s39680182" data-t="s39680182">피부케어 추천 BEST</a></div></nav>
 
-<section class="sec hotsec" id="s7704220">
+<section class="sec hotsec" id="s87623790">
       <h2><span class="flag">NOW</span>실시간 베스트</h2>
       <div class="grid">
       <a class="item hot reveal" href="https://naver.me/xbKypkMw"
@@ -198,7 +200,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec goldsec" id="s18019258">
+<section class="sec goldsec" id="s50423565">
       <h2><span class="flag gd">적립</span>슈퍼적립 베스트컬렉션</h2>
       <div class="grid">
       <a class="item hot reveal" href="https://naver.me/551aHBEi"
@@ -286,7 +288,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s58138099">
+<section class="sec" id="s10900964">
       <h2><span class="rule"></span>물놀이 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/Ge7xFlKB"
@@ -374,7 +376,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s33987265">
+<section class="sec" id="s6558750">
       <h2><span class="rule"></span>홈캉스 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/539HyPBa"
@@ -462,7 +464,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s96026716">
+<section class="sec" id="s8640175">
       <h2><span class="rule"></span>여름먹거리 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/GCJBUPgF"
@@ -550,7 +552,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s50255192">
+<section class="sec" id="s51123712">
       <h2><span class="rule"></span>캠핑&amp;차박 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/F6QN7FvQ"
@@ -638,7 +640,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s18589704">
+<section class="sec" id="s44266924">
       <h2><span class="rule"></span>집콕취미템 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/5NecLOEl"
@@ -726,7 +728,7 @@ footer p+p{margin-top:6px}
         </span>
       </a></div>
     </section>
-<section class="sec" id="s10913142">
+<section class="sec" id="s39680182">
       <h2><span class="rule"></span>피부케어 추천 BEST</h2>
       <div class="grid">
       <a class="item reveal" href="https://naver.me/5CCjvEQn"
