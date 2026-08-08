@@ -95,6 +95,12 @@ nav a.sc{animation:scglow 2.4s ease-in-out infinite}
 .ph.lpe{display:flex;width:96px;height:96px;align-items:center;justify-content:center;
  font-size:42px;background:#222b38;border-radius:9px}
 .bg.lp{background:#4a7cf0}
+.ccode{display:inline-block;margin-top:8px;padding:7px 11px;font:inherit;font-size:12.5px;
+ color:#ffd995;background:rgba(255,193,77,.12);border:1px dashed rgba(255,193,77,.6);
+ border-radius:8px;cursor:pointer;text-align:left;width:fit-content}
+.ccode b{font-weight:900;letter-spacing:.04em}
+.ccode:hover{background:rgba(255,193,77,.22)}
+.ccode.ok{border-style:solid;color:#b7f0c0;border-color:rgba(110,220,140,.6);background:rgba(110,220,140,.12)}
 .phb{position:absolute;left:5px;top:5px;display:flex;gap:3px}
 .bg{font-size:10px;font-weight:900;padding:3px 6px;border-radius:5px;color:#fff}
 .bg.hot{background:var(--deal)} .bg.gold{background:var(--gold);color:#3a2a00}
@@ -149,7 +155,7 @@ footer p+p{margin-top:6px}
   <p class="notice">이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.<br>일부 카드에는 링크프라이스 제휴 링크가 포함되어 있으며, 구매·예약 등 실적 발생 시 수수료를 제공받습니다.</p>
 </header>
 
-<nav><div class="navin"><a class="gl sc" href="#secret" data-t="secret">🔒 시크릿딜</a><a class="hl" href="#now" data-t="now">실시간 베스트</a><a class="" href="#cat" data-t="cat">고양이의 날</a><a class="" href="#food" data-t="food">여름 보양식</a><a class="gl" href="#living" data-t="living">생활가전 특가</a><a class="" href="#trip" data-t="trip">여행·방학 준비</a><a class="" href="#drive" data-t="drive">차 타고 떠날 때</a><a class="" href="#home" data-t="home">집에서 여름 나기</a></div></nav>
+<nav><div class="navin"><a class="gl sc" href="#secret" data-t="secret">🔒 시크릿딜</a><a class="hl" href="#now" data-t="now">실시간 베스트</a><a class="" href="#cat" data-t="cat">고양이의 날</a><a class="" href="#food" data-t="food">여름 보양식</a><a class="gl" href="#living" data-t="living">생활가전 특가</a><a class="" href="#trip" data-t="trip">여행·방학 준비</a><a class="" href="#tour" data-t="tour">떠나기 전 예약할 것</a><a class="" href="#drive" data-t="drive">차 타고 떠날 때</a><a class="" href="#home" data-t="home">집에서 여름 나기</a></div></nav>
 
 <section class="sec goldsec" id="secret">
       <h2><span class="flag gd">단독</span>🔒 시크릿딜</h2>
@@ -163,7 +169,8 @@ footer p+p{margin-top:6px}
         <span class="txt">
           <span class="hook">검색해선 안 나옵니다 — 이 링크로만 열리는 페이지입니다</span>
           <span class="nm">클리오 시크릿특가 히든페이지</span>
-          <span class="cpn">🎟 쿠폰코드 cliocode · ~8/31 · 1인 1회 · 최대 3만원 할인</span>
+          <button class="ccode" type="button" data-code="cliocode">🎟 쿠폰코드 <b>cliocode</b> 복사</button>
+          <span class="cpn">~8/31 · 1인 1회 · 최대 3만원 할인</span>
           <span class="buy"><i>바로 가기 →</i></span>
         </span>
       </a></div>
@@ -580,6 +587,7 @@ footer p+p{margin-top:6px}
           <span class="hook">에어컨 청소, 견적부터 무료로 받습니다</span>
           <span class="nm">숨고 — 홈서비스 견적</span>
           
+          
           <span class="buy"><i>바로 가기 →</i></span>
         </span>
       </a>
@@ -591,6 +599,7 @@ footer p+p{margin-top:6px}
         <span class="txt">
           <span class="hook">박스만 뜯은 리퍼 가전을 팝니다</span>
           <span class="nm">리퍼연구소 — 리퍼 가전 아울렛</span>
+          
           
           <span class="buy"><i>바로 가기 →</i></span>
         </span>
@@ -695,9 +704,14 @@ footer p+p{margin-top:6px}
             <span class="rv">리뷰 25,084</span></span>
           <span class="buy"><b>108,000</b><em>원</em><i>바로 보기 →</i></span>
         </span>
-      </a>
+      </a></div>
+    </section>
+<section class="sec" id="tour">
+      <h2><span class="rule"></span>떠나기 전 예약할 것</h2>
+      <p class="skipnote">날짜가 정해진 다음에 예약하세요. 계획 없이 미리 결제할 이유는 없습니다.</p>
+      <div class="grid">
       <a class="item reveal" href="https://click.linkprice.com/click.php?m=klook&amp;a=A100706679&amp;l=9999&amp;l_cd1=3&amp;l_cd2=q&amp;tu=https%3A%2F%2Fwww.klook.com%2Fko%2F"
-         data-ev="lp:trip/클룩 — 현지 투어·입장권"
+         data-ev="lp:tour/클룩 — 현지 투어·입장권"
          target="_blank" rel="nofollow sponsored noopener">
         <span class="ph lpe">🎟️
           <span class="phb"><span class="bg lp">제휴</span></span></span>
@@ -705,11 +719,12 @@ footer p+p{margin-top:6px}
           <span class="hook">입장권·투어를 한국에서 미리 삽니다</span>
           <span class="nm">클룩 — 현지 투어·입장권</span>
           
+          
           <span class="buy"><i>바로 가기 →</i></span>
         </span>
       </a>
       <a class="item reveal" href="https://click.linkprice.com/click.php?m=usimsa&amp;a=A100706679&amp;l=9999&amp;l_cd1=3&amp;l_cd2=q&amp;tu=https%3A%2F%2Fwww.usimsa.com%2F"
-         data-ev="lp:trip/유심사 — 여행 eSIM·유심"
+         data-ev="lp:tour/유심사 — 여행 eSIM·유심"
          target="_blank" rel="nofollow sponsored noopener">
         <span class="ph lpe">📶
           <span class="phb"><span class="bg lp">제휴</span></span></span>
@@ -717,17 +732,19 @@ footer p+p{margin-top:6px}
           <span class="hook">로밍 대신 eSIM 씁니다</span>
           <span class="nm">유심사 — 여행 eSIM·유심</span>
           
+          
           <span class="buy"><i>바로 가기 →</i></span>
         </span>
       </a>
       <a class="item reveal" href="https://click.linkprice.com/click.php?m=agoda&amp;a=A100706679&amp;l=9999&amp;l_cd1=3&amp;l_cd2=q&amp;tu=https%3A%2F%2Fwww.agoda.com%2Fko-kr%2F"
-         data-ev="lp:trip/아고다 — 해외 숙소 예약"
+         data-ev="lp:tour/아고다 — 해외 숙소 예약"
          target="_blank" rel="nofollow sponsored noopener">
         <span class="ph lpe">🏨
           <span class="phb"><span class="bg lp">제휴</span></span></span>
         <span class="txt">
           <span class="hook">여행 날짜만 넣으면 숙소 시세가 보입니다</span>
           <span class="nm">아고다 — 해외 숙소 예약</span>
+          
           
           <span class="buy"><i>바로 가기 →</i></span>
         </span>
@@ -959,6 +976,24 @@ footer p+p{margin-top:6px}
   navH();
   addEventListener('resize', navH, {passive:true});
   if(window.ResizeObserver && navEl) new ResizeObserver(navH).observe(navEl);
+
+  // 쿠폰코드 복사 — 카드(<a>) 안의 버튼이라 기본 이동을 막고 코드만 복사한다
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('.ccode');
+    if(!b) return;
+    e.preventDefault(); e.stopPropagation();
+    var code = b.dataset.code, done = function(){
+      var old = b.innerHTML;
+      b.classList.add('ok'); b.textContent = '복사됨 ✓ ' + code;
+      setTimeout(function(){ b.classList.remove('ok'); b.innerHTML = old; }, 1800);
+    };
+    if(navigator.clipboard && navigator.clipboard.writeText)
+      navigator.clipboard.writeText(code).then(done, done);
+    else {
+      var t = document.createElement('textarea'); t.value = code; document.body.appendChild(t);
+      t.select(); try{ document.execCommand('copy'); }catch(_e){} document.body.removeChild(t); done();
+    }
+  }, true);
 
   var em = document.querySelector('h1 em'); if(em && !rm) em.classList.add('sh');
   var links = [].slice.call(document.querySelectorAll('nav a')),
