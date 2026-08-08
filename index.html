@@ -29,6 +29,7 @@
  --blue:#4a7cf0;--deal:#ff5060;--gold:#ffcb5e;
  --settle:cubic-bezier(0,.65,.51,.99);--enter:cubic-bezier(.2,.75,.34,.94)}
 *{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:hidden;max-width:100%}
 body{background:var(--ink);background-image:radial-gradient(1200px 460px at 50% -150px,rgba(74,124,240,.26),transparent 62%);background-repeat:no-repeat;color:var(--tx);font-family:'Pretendard Variable',Pretendard,-apple-system,'Apple SD Gothic Neo',
  'Malgun Gothic',sans-serif;
  line-height:1.6;-webkit-font-smoothing:antialiased;font-variant-numeric:tabular-nums}
@@ -97,16 +98,18 @@ nav a.sc{animation:scglow 2.4s ease-in-out infinite}
 .bg.lp{background:#4a7cf0}
 .ccode{display:inline-block;margin-top:8px;padding:7px 11px;font:inherit;font-size:12.5px;
  color:#ffd995;background:rgba(255,193,77,.12);border:1px dashed rgba(255,193,77,.6);
- border-radius:8px;cursor:pointer;text-align:left;width:fit-content}
+ border-radius:8px;cursor:pointer;text-align:left;width:fit-content;
+ max-width:100%;overflow-wrap:anywhere}
 .ccode b{font-weight:900;letter-spacing:.04em}
 .ccode:hover{background:rgba(255,193,77,.22)}
 .ccode.ok{border-style:solid;color:#b7f0c0;border-color:rgba(110,220,140,.6);background:rgba(110,220,140,.12)}
-.dd{display:inline-block;width:fit-content;margin-bottom:7px;padding:5px 10px;
- font-size:12.5px;font-weight:900;letter-spacing:.02em;border-radius:7px;
- color:#ffd995;background:rgba(255,193,77,.16);border:1px solid rgba(255,193,77,.5)}
+.dd{display:inline-block;width:fit-content;margin-bottom:6px;padding:2px 7px;
+ font-size:10.5px;font-weight:700;letter-spacing:.03em;border-radius:6px;
+ font-variant-numeric:tabular-nums;
+ color:#ffd995;background:rgba(255,193,77,.13);border:1px solid rgba(255,193,77,.4)}
 .dd.soon{color:#fff;background:var(--deal);border-color:var(--deal)}
 .cpns{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
-.cpns .cpn{margin-top:0;margin-right:0;word-break:keep-all}
+.cpns .cpn{margin-top:0;margin-right:0;word-break:keep-all;overflow-wrap:anywhere}
 .skipnote{word-break:keep-all}
 .phb{position:absolute;left:5px;top:5px;display:flex;gap:3px}
 .bg{font-size:10px;font-weight:900;padding:3px 6px;border-radius:5px;color:#fff}
