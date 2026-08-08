@@ -81,6 +81,9 @@ nav a.hl{background:rgba(255,59,78,.16);border-color:rgba(255,59,78,.5);color:#f
 nav a.hl.on{background:var(--deal);border-color:var(--deal);color:#fff}
 nav a.gl{background:rgba(255,193,77,.14);border-color:rgba(255,193,77,.45);color:#ffd995}
 nav a.gl.on{background:var(--gold);border-color:var(--gold);color:#3a2a00}
+nav a.sc{animation:scglow 2.4s ease-in-out infinite}
+@keyframes scglow{0%,100%{box-shadow:0 0 0 rgba(255,193,77,0)}50%{box-shadow:0 0 12px rgba(255,193,77,.5)}}
+@media (prefers-reduced-motion: reduce){nav a.sc{animation:none;box-shadow:0 0 8px rgba(255,193,77,.35)}}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:18px}
 .item{display:flex;gap:14px;padding:15px;background:var(--sf);border:1px solid var(--line);box-shadow:0 1px 0 rgba(255,255,255,.03) inset;
  border-radius:14px;text-decoration:none;color:inherit;transition:.2s var(--enter)}
@@ -146,7 +149,7 @@ footer p+p{margin-top:6px}
   <p class="notice">이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.<br>일부 카드에는 링크프라이스 제휴 링크가 포함되어 있으며, 구매·예약 등 실적 발생 시 수수료를 제공받습니다.</p>
 </header>
 
-<nav><div class="navin"><a class="" href="#secret" data-t="secret">🔒 시크릿딜</a><a class="hl" href="#now" data-t="now">실시간 베스트</a><a class="" href="#cat" data-t="cat">고양이의 날</a><a class="" href="#food" data-t="food">여름 보양식</a><a class="gl" href="#living" data-t="living">생활가전 특가</a><a class="" href="#trip" data-t="trip">여행·방학 준비</a><a class="" href="#drive" data-t="drive">차 타고 떠날 때</a><a class="" href="#home" data-t="home">집에서 여름 나기</a></div></nav>
+<nav><div class="navin"><a class="gl sc" href="#secret" data-t="secret">🔒 시크릿딜</a><a class="hl" href="#now" data-t="now">실시간 베스트</a><a class="" href="#cat" data-t="cat">고양이의 날</a><a class="" href="#food" data-t="food">여름 보양식</a><a class="gl" href="#living" data-t="living">생활가전 특가</a><a class="" href="#trip" data-t="trip">여행·방학 준비</a><a class="" href="#drive" data-t="drive">차 타고 떠날 때</a><a class="" href="#home" data-t="home">집에서 여름 나기</a></div></nav>
 
 <section class="sec goldsec" id="secret">
       <h2><span class="flag gd">단독</span>🔒 시크릿딜</h2>
