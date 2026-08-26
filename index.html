@@ -1283,12 +1283,23 @@ footer p+p{margin-top:6px}
     links.forEach(function(a,i){ a.classList.toggle('on', i===k); }); }
   addEventListener('scroll', sync, {passive:true}); sync();
 
+  // 채널 구분(2026-08-26): 유입 URL 의 ?c= 를 기록 경로에 남긴다.
+  // 카페 공지=?c=cafe · 스레드 프로필=?c=th · 릴스=?c=reels — 없으면 직접 유입.
+  // 같은 방문 안에서는 세션에 들고 다녀서, 클릭 이벤트에도 채널이 붙는다.
+  var ch = new URLSearchParams(location.search).get('c') || '';
+  try {
+    if(ch) sessionStorage.setItem('dc_ch', ch);
+    else ch = sessionStorage.getItem('dc_ch') || '';
+  } catch(e) {}
+  window.goatcounter = {path: location.pathname + (ch ? '?c=' + ch : '')};
+
   // 카드 클릭 계측 — GoatCounter 이벤트. 어느 섹션의 어느 상품이 클릭되는지 남는다.
+  // 채널이 있으면 'click/상품@채널' 로 남아 채널별 전환까지 갈린다.
   // (스크립트 미로딩·차단 시 조용히 무시 — 쇼핑 이동은 영향 없음)
   document.querySelectorAll('a.item[data-ev]').forEach(function(a){
     a.addEventListener('click', function(){
       if(window.goatcounter && goatcounter.count)
-        goatcounter.count({path: 'click/' + a.dataset.ev, event: true});
+        goatcounter.count({path: 'click/' + a.dataset.ev + (ch ? '@' + ch : ''), event: true});
     });
   });
 })();
