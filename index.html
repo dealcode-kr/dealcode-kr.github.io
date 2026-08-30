@@ -42,6 +42,27 @@ h1 em{font-style:normal;color:var(--gold);position:relative;display:inline-block
 .notice{margin-top:16px;font-size:12px;color:var(--dim);word-break:keep-all;line-height:1.65}
 .notice p{margin:0}
 .notice p+p{margin-top:8px}
+/* 틱톡 리워드 가로 배너 */
+.tkbn{display:flex;align-items:center;gap:14px;margin:18px auto 0;max-width:920px;
+ padding:16px 20px;border-radius:16px;text-decoration:none;
+ background:linear-gradient(105deg,#ff2f6e,#ff5f9e 60%,#ff8fb8);color:#fff;
+ box-shadow:0 6px 24px rgba(255,47,110,.28)}
+.tkbn .tkl{flex:1;min-width:0}
+.tkbn .tkl em{display:inline-block;font-style:normal;font-size:11.5px;font-weight:700;
+ background:rgba(255,255,255,.22);padding:3px 9px;border-radius:999px;margin-bottom:7px}
+.tkbn .tkl b{display:block;font-size:16.5px;font-weight:800;line-height:1.35;
+ letter-spacing:-.02em;word-break:keep-all}
+.tkbn .tkl small{display:block;margin-top:6px;font-size:11.5px;line-height:1.5;
+ color:rgba(255,255,255,.88);word-break:keep-all}
+.tkbn .tkr{flex:none;text-align:center;background:#fff;color:#e11d5f;border-radius:13px;
+ padding:11px 18px}
+.tkbn .tkr strong{display:block;font-size:21px;font-weight:900;letter-spacing:-.02em}
+.tkbn .tkr i{display:block;font-style:normal;font-size:11.5px;font-weight:700;margin-top:2px}
+@media (max-width:620px){
+ .tkbn{flex-direction:column;align-items:stretch;gap:10px;margin:14px 14px 0;padding:14px 16px}
+ .tkbn .tkr{display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 14px}
+ .tkbn .tkr strong{font-size:19px}
+}
 
 /* 카테고리 — 가로 스크롤 대신 **병렬 배치**(네이버식). 한 화면에 전부 보인다 */
 nav{position:sticky;top:0;z-index:20;margin-top:22px;padding:11px 0 12px;
@@ -192,6 +213,7 @@ footer p+p{margin-top:6px}
 </header>
 
 <nav><div class="navin"><a class="gl sc" href="#secret" data-t="secret">🔒 시크릿딜</a><a class="gl" href="#hotdeal" data-t="hotdeal">🟢 네이버 단독구성</a><a class="hl" href="#now" data-t="now">실시간 베스트</a><a class="" href="#gift" data-t="gift">추석 선물, 미리 골라두기</a><a class="" href="#soup" data-t="soup">아침저녁이 쌀쌀해지면</a><a class="" href="#drive" data-t="drive">차 타고 떠날 때</a><a class="" href="#picnic" data-t="picnic">캠핑 가서 구울 것</a><a class="" href="#living" data-t="living">부르고 맡길 것</a><a class="" href="#travel" data-t="travel">연휴에 떠날 거라면</a><a class="" href="#tour" data-t="tour">떠나기 전 예약할 것</a></div></nav>
+
 
 <section class="sec goldsec" id="secret">
       <h2><span class="flag gd">단독</span>🔒 시크릿딜</h2>
@@ -1458,7 +1480,7 @@ footer p+p{margin-top:6px}
   // 카드 클릭 계측 — GoatCounter 이벤트. 어느 섹션의 어느 상품이 클릭되는지 남는다.
   // 채널이 있으면 'click/상품@채널' 로 남아 채널별 전환까지 갈린다.
   // (스크립트 미로딩·차단 시 조용히 무시 — 쇼핑 이동은 영향 없음)
-  document.querySelectorAll('a.item[data-ev]').forEach(function(a){
+  document.querySelectorAll('a.item[data-ev], a.tkbn[data-ev]').forEach(function(a){
     a.addEventListener('click', function(){
       if(window.goatcounter && goatcounter.count)
         goatcounter.count({path: 'click/' + a.dataset.ev + (ch ? '@' + ch : ''), event: true});
