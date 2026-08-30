@@ -42,26 +42,43 @@ h1 em{font-style:normal;color:var(--gold);position:relative;display:inline-block
 .notice{margin-top:16px;font-size:12px;color:var(--dim);word-break:keep-all;line-height:1.65}
 .notice p{margin:0}
 .notice p+p{margin-top:8px}
-/* 틱톡 리워드 가로 배너 */
-.tkbn{display:flex;align-items:center;gap:14px;margin:18px auto 0;max-width:920px;
- padding:16px 20px;border-radius:16px;text-decoration:none;
- background:linear-gradient(105deg,#ff2f6e,#ff5f9e 60%,#ff8fb8);color:#fff;
- box-shadow:0 6px 24px rgba(255,47,110,.28)}
-.tkbn .tkl{flex:1;min-width:0}
-.tkbn .tkl em{display:inline-block;font-style:normal;font-size:11.5px;font-weight:700;
- background:rgba(255,255,255,.22);padding:3px 9px;border-radius:999px;margin-bottom:7px}
-.tkbn .tkl b{display:block;font-size:16.5px;font-weight:800;line-height:1.35;
+/* 틱톡 리워드 가로 배너 — 모션은 dc-lottie 원칙(플러시 1개·정착 후 정지·자기완결) */
+.tkbn{position:relative;display:flex;align-items:center;gap:18px;margin:18px auto 0;
+ max-width:920px;padding:18px 22px;border-radius:18px;text-decoration:none;overflow:hidden;
+ background:linear-gradient(105deg,#ff2f6e,#ff5f9e 62%,#ff8fb8);color:#fff;
+ box-shadow:0 8px 28px rgba(255,47,110,.3)}
+.tkbn::before{content:"🎁";position:absolute;right:172px;top:-8px;font-size:44px;
+ opacity:.35;transform:rotate(-12deg)}
+.tkbn::after{content:"";position:absolute;inset:0;pointer-events:none;
+ background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);
+ transform:translateX(-110%);animation:tksweep 1.1s cubic-bezier(0,.65,.51,.99) .5s 1 forwards}
+@keyframes tksweep{to{transform:translateX(110%)}}
+.tkbn .tkl{flex:1;min-width:0;position:relative;z-index:1}
+.tkbn .tkl em{display:inline-block;font-style:normal;font-size:11.5px;font-weight:800;
+ background:rgba(20,10,20,.28);padding:4px 11px;border-radius:999px;margin-bottom:8px;
+ letter-spacing:.01em}
+.tkbn .tkl b{display:block;font-size:19px;font-weight:900;line-height:1.3;
  letter-spacing:-.02em;word-break:keep-all}
-.tkbn .tkl small{display:block;margin-top:6px;font-size:11.5px;line-height:1.5;
- color:rgba(255,255,255,.88);word-break:keep-all}
-.tkbn .tkr{flex:none;text-align:center;background:#fff;color:#e11d5f;border-radius:13px;
- padding:11px 18px}
-.tkbn .tkr strong{display:block;font-size:21px;font-weight:900;letter-spacing:-.02em}
-.tkbn .tkr i{display:block;font-style:normal;font-size:11.5px;font-weight:700;margin-top:2px}
+.tkbn .tkl b mark{background:none;color:#ffe94d;font-weight:900}
+.tkbn .tkl small{display:block;margin-top:7px;font-size:11.5px;line-height:1.55;
+ color:rgba(255,255,255,.92);word-break:keep-all}
+.tkbn .tkr{flex:none;position:relative;z-index:1;text-align:center;background:#fff;
+ color:#e11d5f;border-radius:14px;padding:13px 20px;box-shadow:0 3px 10px rgba(120,0,40,.18)}
+.tkbn .tkr strong{display:block;font-size:25px;font-weight:900;letter-spacing:-.03em;
+ font-variant-numeric:tabular-nums}
+.tkbn .tkr i{display:inline-block;font-style:normal;font-size:12px;font-weight:800;margin-top:3px}
+.tkbn .tkr i::after{content:"→";display:inline-block;margin-left:4px;
+ animation:tknudge 1.6s ease-in-out infinite}
+@keyframes tknudge{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
 @media (max-width:620px){
- .tkbn{flex-direction:column;align-items:stretch;gap:10px;margin:14px 14px 0;padding:14px 16px}
- .tkbn .tkr{display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 14px}
- .tkbn .tkr strong{font-size:19px}
+ .tkbn{flex-direction:column;align-items:stretch;gap:12px;margin:14px 14px 0;padding:16px 16px 14px}
+ .tkbn::before{right:14px;top:-10px;font-size:40px;opacity:.3}
+ .tkbn .tkl b{font-size:17.5px}
+ .tkbn .tkr{display:flex;align-items:center;justify-content:center;gap:12px;padding:11px 14px}
+ .tkbn .tkr strong{font-size:22px}
+}
+@media (prefers-reduced-motion:reduce){
+ .tkbn::after,.tkbn .tkr i::after{animation:none}
 }
 
 /* 카테고리 — 가로 스크롤 대신 **병렬 배치**(네이버식). 한 화면에 전부 보인다 */
@@ -217,9 +234,9 @@ footer p+p{margin-top:6px}
 <a class="tkbn reveal" href="https://www.tiktok.com/d/2/ZS9BxDjhovV5S-tLYMi/" target="_blank"
       rel="nofollow sponsored noopener" data-ev="banner\틱톡리워드">
       <span class="tkl"><em>🎉 틱톡 신규 가입 이벤트</em>
-        <b>가입하고 미션하면 21,000원 받아요</b>
+        <b>가입하고 미션하면 <mark>21,000원</mark> 받아요</b>
         <small>신규 사용자 한정 · 네이버페이/편의점 포인트 교환 · 초대한 저도 21,000원을 받는 링크예요</small></span>
-      <span class="tkr"><strong>₩21,000</strong><i>받으러 가기 →</i></span>
+      <span class="tkr"><strong>₩21,000</strong><i>받으러 가기</i></span>
     </a>
 <section class="sec goldsec" id="secret">
       <h2><span class="flag gd">단독</span>🔒 시크릿딜</h2>
