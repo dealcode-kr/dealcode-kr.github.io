@@ -1750,7 +1750,10 @@ footer p+p{margin-top:6px}
     a.addEventListener('click', function(){
       if(window.goatcounter && goatcounter.count)
         goatcounter.count({path: 'click/' + a.dataset.ev + (ch ? '@' + ch : ''), event: true});
+      if(window.gtag)
+        gtag('event', 'card_click', {ev: a.dataset.ev, ch: ch || 'direct',
+             link_url: a.href, transport_type: 'beacon'});
     });
   });
 })();
-</script><script data-goatcounter="https://dealcode.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>
+</script><script data-goatcounter="https://dealcode.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-PHFE4JZZEN"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PHFE4JZZEN');</script></body></html>
