@@ -1740,6 +1740,13 @@ footer p+p{margin-top:6px}
   // GA4 세션 출처 · card_click 의 ch · GoatCounter 경로가 **같은 이름**으로 갈리게 맞춘다.
   var qs = new URLSearchParams(location.search);
   var ch = (qs.get('c') || qs.get('utm_source') || '').toLowerCase();
+  // utm 이 없는 ?c= 링크(당근 공지 ?c=cafe)는 GA4 세션 출처가 안 갈린다 → GA4 가 주소를 읽기 전에
+  // utm_source/medium 을 붙여 둔다(태그가 이 스크립트 뒤에 실리므로 순서가 맞다). 2026-10-05.
+  if(qs.get('c') && !qs.get('utm_source')) { try {
+    var u = new URL(location.href);
+    u.searchParams.set('utm_source', ch); u.searchParams.set('utm_medium', 'referral');
+    history.replaceState(null, '', u.toString());
+  } catch(e) {} }
   try {
     if(ch) sessionStorage.setItem('dc_ch', ch);
     else ch = sessionStorage.getItem('dc_ch') || '';
