@@ -1765,5 +1765,26 @@ footer p+p{margin-top:6px}
              link_url: a.href, transport_type: 'beacon'});
     });
   });
+
+  // 칸별 노출(2026-10-05 사용자 지시) — 칸 제목(h2)이 화면에 **절반 이상** 보이면 그 칸을 '봤다'고 본다.
+  // 칸 전체 기준이면 카드가 많은 긴 칸은 영영 안 찍혀서 제목으로 잰다. 방문당 칸마다 한 번.
+  // GA4 `section_view`(sec·ch) + GoatCounter `view/<칸>@채널` — 어느 칸까지 읽고 이탈했는지 본다.
+  try {
+    if('IntersectionObserver' in window) {
+      var seen = {};
+      var io = new IntersectionObserver(function(es){
+        es.forEach(function(e){
+          if(!e.isIntersecting) return;
+          var sec = e.target.parentNode.id; if(!sec || seen[sec]) return;
+          seen[sec] = 1; io.unobserve(e.target);
+          var nm = (e.target.lastChild && e.target.lastChild.textContent || '').trim();   // 한글 칸 이름(id 는 해시일 수 있다)
+          if(window.gtag) gtag('event', 'section_view', {sec: sec, sec_name: nm, ch: ch || 'direct', order: Object.keys(seen).length});
+          if(window.goatcounter && goatcounter.count)
+            goatcounter.count({path: 'view/' + sec + (ch ? '@' + ch : ''), event: true});
+        });
+      }, {threshold: 0.5});
+      document.querySelectorAll('section.sec > h2').forEach(function(h){ io.observe(h); });
+    }
+  } catch(e) {}
 })();
 </script><script data-goatcounter="https://dealcode.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-PHFE4JZZEN"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PHFE4JZZEN');</script></body></html>
