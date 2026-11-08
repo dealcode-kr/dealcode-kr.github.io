@@ -10,7 +10,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#1d232e">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+<link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css"></noscript>
 <style>
 :root{--ink:#1d232e;--sf:#28303d;--line:#3d4859;--tx:#f9fbfd;--mut:#b5c1cf;--dim:#8e9bab;--blue:#4a7cf0;--gold:#ffcb5e}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -22,6 +23,8 @@ a{color:#9db8ff}
 .top{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;padding:16px 0;font-size:14px;color:var(--dim);border-bottom:1px solid var(--line)}
 .top a{color:var(--mut);text-decoration:none}.top b{color:var(--tx)}
 .disc{margin-top:18px;font-size:12px;color:var(--dim)}
+.crumb{margin-top:14px;font-size:13px;color:var(--dim)}.crumb a{color:var(--mut);text-decoration:none}
+.caution{margin-top:10px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:13.5px;color:var(--mut)}
 h1{margin-top:14px;font-size:clamp(28px,6vw,40px);font-weight:900;letter-spacing:-.03em;line-height:1.2}
 .lede{margin-top:12px;font-size:17px;color:var(--mut)}
 .meta{margin-top:10px;font-size:13px;color:var(--dim)}
@@ -45,7 +48,7 @@ th{color:var(--dim);font-weight:600}td.n{text-align:right;white-space:nowrap}
 .facts{margin-top:4px;font-size:14px;color:var(--mut)}
 .specs{margin-top:8px;font-size:14px;color:var(--mut)}
 .fit{margin-top:12px;font-size:14px}
-.buy{display:inline-block;margin-top:14px;padding:9px 16px;border-radius:9px;background:var(--blue);color:#fff;font-weight:700;font-size:14px;text-decoration:none}
+.buy{display:inline-block;margin-top:14px;padding:9px 16px;border-radius:9px;background:#2d5fd3;color:#fff;font-weight:700;font-size:14px;text-decoration:none}
 .ch a{text-decoration:none}.ch span{display:inline-block;min-width:52px;color:var(--dim)}
 .faq dt{margin-top:16px;font-weight:800}.faq dd{margin-top:4px;color:var(--mut)}
 .cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
