@@ -4,30 +4,31 @@
 
 - 유튜브 채널: https://www.youtube.com/@dealcodekr
 - 모아보기: https://dealcode-kr.github.io/review/
+- 고르는 방법: https://dealcode-kr.github.io/about/
 
 ## BEST 5 정리
 
-- [공기청정기 추천 BEST 5](https://dealcode-kr.github.io/review/air/): 2026년 10월 · 검증 리뷰 6,724건 비교
-- [보조배터리 추천 BEST 5](https://dealcode-kr.github.io/review/battery/): 2026년 9월 · 검증 리뷰 24,647건 비교
-- [차량용방향제 추천 BEST 5](https://dealcode-kr.github.io/review/carfresh/): 2026년 10월 · 검증 리뷰 128,365건 비교
-- [커피머신 추천 BEST 5](https://dealcode-kr.github.io/review/coffee/): 2026년 10월 · 검증 리뷰 34,036건 비교
-- [제습기 추천 BEST 5](https://dealcode-kr.github.io/review/dehumid/): 2026년 10월 · 검증 리뷰 37,687건 비교
-- [식기세척기 추천 BEST 5](https://dealcode-kr.github.io/review/dishwasher/): 2026년 10월 · 검증 리뷰 8,941건 비교
-- [드라이기 추천 BEST 5](https://dealcode-kr.github.io/review/dryer/): 2026년 9월 · 검증 리뷰 99,372건 비교
-- [음식물처리기 추천 BEST 5](https://dealcode-kr.github.io/review/foodwaste/): 2026년 10월 · 검증 리뷰 64,417건 비교
-- [족욕기 추천 BEST 5](https://dealcode-kr.github.io/review/footbath/): 2026년 11월 · 검증 리뷰 13,344건 비교
-- [에어프라이어 추천 BEST 5](https://dealcode-kr.github.io/review/fryer/): 2026년 9월 · 검증 리뷰 62,522건 비교
-- [전기히터 추천 BEST 5](https://dealcode-kr.github.io/review/heater/): 2026년 10월 · 검증 리뷰 37,578건 비교
-- [온수매트 추천 BEST 5](https://dealcode-kr.github.io/review/hotmat/): 2026년 10월 · 검증 리뷰 4,689건 비교
-- [가습기 추천 BEST 5](https://dealcode-kr.github.io/review/humid/): 2026년 9월 · 검증 리뷰 138,930건 비교
-- [김치냉장고 추천 BEST 5](https://dealcode-kr.github.io/review/kimchifridge/): 2026년 10월 · 검증 리뷰 14,721건 비교
-- [노트북 추천 BEST 5](https://dealcode-kr.github.io/review/laptop/): 2026년 9월 · 검증 리뷰 49,440건 비교
-- [안마의자 추천 BEST 5](https://dealcode-kr.github.io/review/massage/): 2026년 10월 · 검증 리뷰 4,715건 비교
-- [전기장판 추천 BEST 5](https://dealcode-kr.github.io/review/mat/): 2026년 9월 · 검증 리뷰 17,446건 비교
-- [전자레인지 추천 BEST 5](https://dealcode-kr.github.io/review/microwave/): 2026년 10월 · 검증 리뷰 21,771건 비교
-- [차량용거치대 추천 BEST 5](https://dealcode-kr.github.io/review/mount/): 2026년 9월 · 검증 리뷰 197,774건 비교
-- [밥솥 추천 BEST 5](https://dealcode-kr.github.io/review/ricecooker/): 2026년 9월 · 검증 리뷰 36,108건 비교
-- [로봇청소기 추천 BEST 5](https://dealcode-kr.github.io/review/robot/): 2026년 9월 · 검증 리뷰 14,868건 비교
-- [전기면도기 추천 BEST 5](https://dealcode-kr.github.io/review/shaver/): 2026년 11월 · 검증 리뷰 26,378건 비교
-- [난방텐트 추천 BEST 5](https://dealcode-kr.github.io/review/tent/): 2026년 10월 · 검증 리뷰 72,279건 비교
-- [무선청소기 추천 BEST 5](https://dealcode-kr.github.io/review/vacuum/): 2026년 9월 · 검증 리뷰 67,410건 비교
+- [족욕기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/footbath/): 2026년 11월 · 검증 리뷰 13,344건 비교
+- [전기면도기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/shaver/): 2026년 11월 · 검증 리뷰 26,378건 비교
+- [난방텐트 추천 순위 BEST 5](https://dealcode-kr.github.io/review/tent/): 2026년 10월 · 검증 리뷰 72,279건 비교
+- [안마의자 추천 순위 BEST 5](https://dealcode-kr.github.io/review/massage/): 2026년 10월 · 검증 리뷰 4,715건 비교
+- [온수매트 추천 순위 BEST 5](https://dealcode-kr.github.io/review/hotmat/): 2026년 10월 · 검증 리뷰 4,689건 비교
+- [식기세척기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/dishwasher/): 2026년 10월 · 검증 리뷰 8,941건 비교
+- [음식물처리기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/foodwaste/): 2026년 10월 · 검증 리뷰 64,417건 비교
+- [김치냉장고 추천 순위 BEST 5](https://dealcode-kr.github.io/review/kimchifridge/): 2026년 10월 · 검증 리뷰 14,721건 비교
+- [전기히터 추천 순위 BEST 5](https://dealcode-kr.github.io/review/heater/): 2026년 10월 · 검증 리뷰 37,578건 비교
+- [제습기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/dehumid/): 2026년 10월 · 검증 리뷰 37,687건 비교
+- [공기청정기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/air/): 2026년 10월 · 검증 리뷰 6,724건 비교
+- [커피머신 추천 순위 BEST 5](https://dealcode-kr.github.io/review/coffee/): 2026년 10월 · 검증 리뷰 34,036건 비교
+- [전자레인지 추천 순위 BEST 5](https://dealcode-kr.github.io/review/microwave/): 2026년 10월 · 검증 리뷰 21,771건 비교
+- [차량용 방향제 추천 순위 BEST 5](https://dealcode-kr.github.io/review/carfresh/): 2026년 10월 · 검증 리뷰 128,365건 비교
+- [밥솥 추천 순위 BEST 5](https://dealcode-kr.github.io/review/ricecooker/): 2026년 9월 · 검증 리뷰 36,108건 비교
+- [드라이기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/dryer/): 2026년 9월 · 검증 리뷰 99,372건 비교
+- [가습기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/humid/): 2026년 9월 · 검증 리뷰 138,930건 비교
+- [에어프라이어 추천 순위 BEST 5](https://dealcode-kr.github.io/review/fryer/): 2026년 9월 · 검증 리뷰 62,522건 비교
+- [전기장판 추천 순위 BEST 5](https://dealcode-kr.github.io/review/mat/): 2026년 9월 · 검증 리뷰 17,446건 비교
+- [차량용 거치대 추천 순위 BEST 5](https://dealcode-kr.github.io/review/mount/): 2026년 9월 · 검증 리뷰 197,774건 비교
+- [노트북 추천 순위 BEST 5](https://dealcode-kr.github.io/review/laptop/): 2026년 9월 · 검증 리뷰 49,440건 비교
+- [로봇청소기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/robot/): 2026년 9월 · 검증 리뷰 14,868건 비교
+- [보조배터리 추천 순위 BEST 5](https://dealcode-kr.github.io/review/battery/): 2026년 9월 · 검증 리뷰 24,647건 비교
+- [무선청소기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/vacuum/): 2026년 9월 · 검증 리뷰 67,410건 비교
