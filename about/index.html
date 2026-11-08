@@ -70,10 +70,20 @@ footer p+p{margin-top:6px}
 </ul></section>
 <section><h2>지금까지 비교한 것</h2><p>24개 카테고리, 제품 검증 리뷰 합계 1,184,162건을 확인했어요. 전체 목록은 <a href="/review/">BEST 5 모아보기</a>에 있어요.</p></section>
 <section><h2>광고·제휴 안내</h2><p>이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다. 일부 편은 링크프라이스 제휴 쿠폰을 함께 안내해요.</p></section>
+<section><h2>방문 통계</h2><p>어떤 글이 도움이 되는지 보려고 구글 애널리틱스와 GoatCounter로 방문 수와 링크 클릭 수를 세요. 이름이나 연락처 같은 개인정보는 받지 않아요.</p></section>
 <section><h2>채널</h2><ul><li><a href="https://www.youtube.com/@dealcodekr" rel="noopener">유튜브 딜코드</a></li><li><a href="https://www.instagram.com/dealcode.kr/" rel="noopener">인스타그램 @dealcode.kr</a></li></ul></section>
 </main><footer>
 <p>이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.</p>
 <p>가격·구성은 영상 만든 시점 기준이라 바뀔 수 있습니다. 사시기 전에 링크에서 한 번 더 확인해 주세요.</p>
 <p>딜코드는 직접 써 보고 쓰는 리뷰가 아니라, 판매 페이지의 검증 구매 리뷰와 가격·구성을 확인해 고릅니다.</p>
 <p><a href="/review/">BEST 5 모아보기</a> · <a href="/about/">딜코드 소개</a> · <a href="https://www.youtube.com/@dealcodekr" rel="noopener">유튜브 딜코드</a></p>
-</footer></div></body></html>
+</footer></div><script>(function(){
+var qs=new URLSearchParams(location.search);var ch=(qs.get('c')||qs.get('utm_source')||'').toLowerCase();
+if(qs.get('c')&&!qs.get('utm_source')){try{var u=new URL(location.href);u.searchParams.set('utm_source',ch);u.searchParams.set('utm_medium','referral');history.replaceState(null,'',u.toString());}catch(e){}}
+try{if(ch)sessionStorage.setItem('dc_ch',ch);else ch=sessionStorage.getItem('dc_ch')||'';}catch(e){}
+window.goatcounter={path:location.pathname+(ch?'?c='+ch:'')};
+document.querySelectorAll('a[data-ev]').forEach(function(a){a.addEventListener('click',function(){
+if(window.goatcounter&&goatcounter.count)goatcounter.count({path:'click/'+a.dataset.ev+(ch?'@'+ch:''),event:true});
+if(window.gtag)gtag('event','buy_click',{ev:a.dataset.ev,ch:ch||'direct',link_url:a.href,transport_type:'beacon'});
+});});
+})();</script><script data-goatcounter="https://dealcode.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-PHFE4JZZEN"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PHFE4JZZEN');</script></body></html>
