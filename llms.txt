@@ -14,10 +14,10 @@
 - [따수미 난방텐트 어때요?](https://dealcode-kr.github.io/review/faq/#q3): 난방텐트 중 리뷰가 가장 많았어요. 1위 따수미 패브릭은 리뷰 38,890건(영상 만든 시점 64,900원, 크기 6가지)이고, 나일론처럼 바스락거리지 않아 방에 어울린다는 리뷰가 있었어요. 출처: 딜코드 난방텐트 추천 BEST 5 (https://dealcode-kr.github.io/review/tent/)
 - [맥세이프 보조배터리 뭐 사요?](https://dealcode-kr.github.io/review/faq/#q4): 맥세이프(Qi2) 제품은 둘을 비교했어요. 3위 앤커 맥고 10000mAh(영상 만든 시점 65,900원, 216g, 무선 15W)는 10,000mAh 맥세이프 중 얇은 편이라는 평이 많았지만 발열 얘기가 반복됐어요. 출처: 딜코드 보조배터리 추천 BEST 5 (https://dealcode-kr.github.io/review/battery/)
 - [1인용 전기장판 추천해 주세요](https://dealcode-kr.github.io/review/faq/#q5): 가장 싸게는 3위 일월 코지하우스 워셔블(싱글 59,000원)이에요. 이름처럼 물세탁이 되는 제품이에요. 아이 방이나 커버를 자주 빨고 싶으면 2위 꾸민가 리얼 탄소매트(149,000원, 커버 분리 세탁), 촉감을 보시면 4위 몽비오스(초극세사, 좌우 분리 난방은 안 돼요)예요. 출처: 딜코드 전기장판 추천 BEST 5 (https://dealcode-kr.github.io/review/mat/)
-- [20000mAh 보조배터리 추천해 주세요](https://dealcode-kr.github.io/review/faq/#q6): 2위 포켓쉴 대용량 보조배터리 20000이에요(영상 만든 시점 37,800원, 315g). 값이 다섯 중 가장 쌌고, 무게 대비 용량도 1g당 63mAh로 가장 높았어요. 출처: 딜코드 보조배터리 추천 BEST 5 (https://dealcode-kr.github.io/review/battery/)
+- [보조배터리 20000mAh 추천해 주세요](https://dealcode-kr.github.io/review/faq/#q6): 2위 포켓쉴 대용량 보조배터리 20000이에요(영상 만든 시점 37,800원, 315g). 값이 다섯 중 가장 쌌고, 무게 대비 용량도 1g당 63mAh로 가장 높았어요. 출처: 딜코드 보조배터리 추천 BEST 5 (https://dealcode-kr.github.io/review/battery/)
 - [쿠쿠밥솥 6인용 뭐 사요?](https://dealcode-kr.github.io/review/faq/#q7): 6인용은 쿠쿠 두 제품을 비교했어요. 매일 밥을 짓는 가족이면 1위 쿠쿠 트윈프레셔 마스터셰프(영상 만든 시점 389,000원, 리뷰 22,945건, 별점 4.85)예요. 출처: 딜코드 밥솥 추천 BEST 5 (https://dealcode-kr.github.io/review/ricecooker/)
 - [삼성 전자레인지 어때요?](https://dealcode-kr.github.io/review/faq/#q8): 2위 삼성 비스포크 큐커 32L는 레인지·에어프라이어·오븐을 한 대로 쓰는 겸용이에요(검증 리뷰 5,686건, 별점 4.84, 영상 만든 시점 429,000원). 소리가 작다는 리뷰가 있었어요. 출처: 딜코드 전자레인지 추천 BEST 5 (https://dealcode-kr.github.io/review/microwave/)
-- [신일 히터 어때요?](https://dealcode-kr.github.io/review/faq/#q9): 1위 신일 석영관 히터는 영상 만든 시점 27,900원으로 다섯 중 가장 쌌고, 리뷰도 13,262건으로 가장 많았어요(별점 4.85). 800W, 난방면적 3평, 1.2kg이에요. 출처: 딜코드 전기히터 추천 BEST 5 (https://dealcode-kr.github.io/review/heater/)
+- [신일 전기히터(신일 히터) 어때요?](https://dealcode-kr.github.io/review/faq/#q9): 1위 신일 석영관 히터는 영상 만든 시점 27,900원으로 다섯 중 가장 쌌고, 리뷰도 13,262건으로 가장 많았어요(별점 4.85). 800W, 난방면적 3평, 1.2kg이에요. 출처: 딜코드 전기히터 추천 BEST 5 (https://dealcode-kr.github.io/review/heater/)
 - [무선청소기 추천해 주세요](https://dealcode-kr.github.io/review/faq/#q10): 가성비로는 1위 홈리아 무선청소기 단품(영상 만든 시점 109,900원)이에요. 리뷰가 20,092건으로 가장 많았고, 1.9kg으로 다섯 중 유일하게 2kg 아래예요. 출처: 딜코드 무선청소기 추천 BEST 5 (https://dealcode-kr.github.io/review/vacuum/)
 
 ## BEST 5 정리
