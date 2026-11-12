@@ -6,6 +6,51 @@
 - 모아보기: https://dealcode-kr.github.io/review/
 - 고르는 방법: https://dealcode-kr.github.io/about/
 
+## 상황별 빠른 답 (검증 구매 리뷰 기준, 가격은 영상 만든 시점)
+
+- [탄소매트](https://dealcode-kr.github.io/review/mat/#s1): 다섯 중 탄소매트로는 별점이 가장 높았던 2위 꾸민가 리얼 탄소매트예요(별점 4.86, 리뷰 3,589건, 영상 만든 시점 149,000원). 커버만 분리해 빨 수 있어요.
+- [1인용 전기장판(싱글 전기장판)](https://dealcode-kr.github.io/review/mat/#s2): 다섯 중 가장 싼 건 3위 일월 코지하우스 워셔블(싱글 59,000원)이고 물세탁이 돼요.
+- [거실 전기장판(거실용)](https://dealcode-kr.github.io/review/mat/#s3): 1위 올크리니 거실 바닥용 모노륨이에요(영상 만든 시점 129,000원, 리뷰 7,582건). 100x183cm에 무늬가 9가지라 카펫 대신 깐다는 리뷰가 반복됐어요.
+- [침대 전기장판(침대용)](https://dealcode-kr.github.io/review/mat/#s4): 침대 위에는 2위 꾸민가 리얼 탄소매트(별점 4.86, 커버 분리 세탁)나 4위 몽비오스 5세대 그래핀(초극세사 촉감, 139,000원)이에요.
+- [캠핑 전기장판](https://dealcode-kr.github.io/review/mat/#s5): 3위 일월 코지하우스 리뷰에 캠핑장 전기 용량이 남는다는 말이 있었고, 영상에서도 캠핑·차박용으로 일월을 권했어요(싱글 59,000원).
+- [아기 전기장판](https://dealcode-kr.github.io/review/mat/#s6): 2위 꾸민가 리얼 탄소매트를 영유아 있는 집에서 골랐다는 리뷰가 반복됐어요(커버 분리 세탁). 전자파는 영상에서 측정하지 않았어요.
+- [전기장판 세탁](https://dealcode-kr.github.io/review/mat/#s7): 통째로 물세탁이 되는 건 3위 일월 코지하우스 워셔블이고, 2위 꾸민가는 커버만 분리해서 빨아요.
+- [전기장판 커버](https://dealcode-kr.github.io/review/mat/#s8): 커버만 분리해 빨 수 있는 건 2위 꾸민가 리얼 탄소매트예요(영상 만든 시점 149,000원). 다만 커버는 별도 구매예요.
+- [원룸 전기장판](https://dealcode-kr.github.io/review/mat/#s9): 원룸이면 바닥에 깔지 침대에 깔지부터 정하세요.
+- [욕실 온풍기(화장실 온풍기·화장실 히터)](https://dealcode-kr.github.io/review/heater/#s1): 벽에 거는 욕실 온풍기는 2위 에어리어 A3(900W, 보증 2년, 영상 만든 시점 149,000원)와 5위 바툼(2,000W, 138,000원)이에요.
+- [욕실 온풍기 무타공](https://dealcode-kr.github.io/review/heater/#s2): 타일 벽에 무타공으로 달았다는 리뷰가 있었던 건 5위 바툼이에요.
+- [벽걸이 히터](https://dealcode-kr.github.io/review/heater/#s3): 벽에 거는 건 욕실용 2위 에어리어 A3(900W, 149,000원)와 5위 바툼(2,000W, 138,000원)이에요.
+- [미니 히터](https://dealcode-kr.github.io/review/heater/#s4): 작은 걸 찾으면 1위 신일 석영관 히터예요(1.2kg, 800W, 영상 만든 시점 27,900원). 1단만 켜도 발이 뜨끈하다는 리뷰가 있었고, 난방면적 표기는 3평이에요.
+- [오방난로](https://dealcode-kr.github.io/review/heater/#s5): 4위 에디르 오방난로 더뉴예요(영상 만든 시점 158,000원, 별점 4.85). 5면 중 쓸 면만 켜고, 한 면 400W에서 다섯 면 다 켜면 2,000W예요.
+- [사무실 발히터(사무실 히터·발히터)](https://dealcode-kr.github.io/review/heater/#s6): 1위 신일 석영관 히터예요(영상 만든 시점 27,900원, 800W, 1.2kg). 다섯 중 가장 쌌고 리뷰가 13,262건으로 가장 많았어요.
+- [원룸 온풍기(원룸 전기히터)](https://dealcode-kr.github.io/review/heater/#s7): 방 한 칸이면 3위 한경희 PTC 온풍기(타워형, 영상 만든 시점 99,000원)예요.
+- [침대 난방텐트(침대 텐트)](https://dealcode-kr.github.io/review/tent/#s1): 리뷰가 가장 많았던 건 1위 따수미 패브릭이에요(리뷰 38,890건, 영상 만든 시점 64,900원, 크기 6가지). 침대 이름이 아니라 매트리스 가로·세로를 재서 텐트 치수와 비교하세요.
+- [우풍 차단(외풍 차단)](https://dealcode-kr.github.io/review/tent/#s2): 1위 따수미 패브릭은 난방을 세게 틀지 않아도 침대 안이 포근하다는 리뷰가, 5위 로티캠프 원터치는 보일러를 끄면 싸늘하던 방이 따뜻해졌다는 리뷰가 있었어요.
+- [아기 난방텐트](https://dealcode-kr.github.io/review/tent/#s3): 5위 로티캠프 원터치 리뷰에 아이 방이 따뜻해졌다는 얘기가 있었고, 아이와 같이 자면 킹까지 있는 4위 따수미 시그니처, 머리 위가 넉넉한 건 3위 로티캠프 사각이에요.
+- [슈퍼싱글 난방텐트](https://dealcode-kr.github.io/review/tent/#s4): 영상 속 가격은 슈퍼싱글·1~2인용 기준이고, 가장 싼 건 2위 산토초이 원터치(24,800원)예요.
+- [난방텐트 퀸·킹](https://dealcode-kr.github.io/review/tent/#s5): 퀸 침대에 퀸이 안 맞아 킹으로 바꿨다는 리뷰, 라지킹 침대엔 킹도 작다는 리뷰가 있었어요.
+- [맥세이프 보조배터리(무선 보조배터리)](https://dealcode-kr.github.io/review/battery/#s1): 맥세이프(Qi2)는 3위 앤커 맥고 10000mAh(영상 만든 시점 65,900원, 216g)와 4위 앤커 맥고 나노 5000mAh(59,900원, 122g)예요.
+- [보조배터리 20000](https://dealcode-kr.github.io/review/battery/#s2): 2위 포켓쉴 대용량 보조배터리 20000이에요(영상 만든 시점 37,800원, 315g). 값이 다섯 중 가장 쌌고 C타입·라이트닝 케이블이 붙어 있어요.
+- [대용량 보조배터리](https://dealcode-kr.github.io/review/battery/#s3): 가장 큰 건 1위 앤커 랩탑 파워뱅크 25,000mAh(99,900원, 165W)인데 595g으로 가장 무거워요.
+- [미니 보조배터리(보조배터리 5000)](https://dealcode-kr.github.io/review/battery/#s4): 4위 앤커 맥고 나노 5000mAh예요(영상 만든 시점 59,900원). 122g, 두께 7.6mm로 다섯 중 가장 가벼워요.
+- [보조배터리 10000](https://dealcode-kr.github.io/review/battery/#s5): 10,000mAh는 둘이에요.
+- [고속 보조배터리](https://dealcode-kr.github.io/review/battery/#s6): 다섯 중 출력이 가장 높은 건 1위 앤커 랩탑 파워뱅크 165W(포트당 최대 100W)예요.
+- [아이폰 보조배터리](https://dealcode-kr.github.io/review/battery/#s7): 선 없이 붙이려면 맥세이프인 3위 앤커 맥고나 4위 맥고 나노, 선으로 충전하려면 라이트닝 케이블이 붙어 있는 2위 포켓쉴 20000(37,800원)이에요.
+- [노트북 보조배터리](https://dealcode-kr.github.io/review/battery/#s8): 노트북까지 충전하려면 1위 앤커 랩탑 파워뱅크 25,000mAh예요(영상 만든 시점 99,900원). 165W, USB C 포트 3개, 포트당 최대 100W예요.
+- [일체형 보조배터리(C타입)](https://dealcode-kr.github.io/review/battery/#s9): 2위 포켓쉴 20000은 C타입과 라이트닝 케이블이 둘 다 붙어 있고, 5위 앤커 나노 10000mAh(57,900원)는 C타입 케이블이 붙어 있어요.
+- [저당밥솥](https://dealcode-kr.github.io/review/ricecooker/#s1): 4위 당감소 58% 저당밥솥이에요(영상 만든 시점 149,000원, 리뷰 2,490건). 당질을 빼는 만큼 밥맛은 포기해야 한다는 리뷰도 있었어요.
+- [쿠쿠밥솥 6인용(6인용 전기밥솥)](https://dealcode-kr.github.io/review/ricecooker/#s2): 6인용은 1위 쿠쿠 트윈프레셔 마스터셰프(압력, 영상 만든 시점 389,000원)와 2위 쿠쿠 에그밥솥(비압력, 78,000원)이에요.
+- [미니 압력밥솥(1인용 압력밥솥)](https://dealcode-kr.github.io/review/ricecooker/#s3): 3위 신일 미니 압력밥솥 1~3인용이에요(영상 만든 시점 99,000원). 뚜껑이 완전히 분리돼 세척이 편하다는 리뷰가 있었고, 보온을 하루 넘기면 밥알이 마른다는 리뷰가 있었어요.
+- [미니밥솥(1인용 밥솥·미니 전기밥솥)](https://dealcode-kr.github.io/review/ricecooker/#s4): 5위 키친아트 미니밥솥 1~2인용이에요(영상 만든 시점 32,900원, 다섯 중 가장 쌈). 압력이 아니라 밥맛은 그냥저냥이라는 리뷰가 있었어요.
+- [2인용 밥솥](https://dealcode-kr.github.io/review/ricecooker/#s5): 1~2인용은 5위 키친아트(32,900원), 1~3인용 압력은 3위 신일(99,000원)이에요.
+- [무회전 전자레인지](https://dealcode-kr.github.io/review/microwave/#s1): 1위 디디오랩 무회전 플랫 전자레인지예요(영상 만든 시점 169,000원, 리뷰 7,577건). 회전판이 없어 안쪽 청소가 쉽고 큰 그릇이 들어간다는 리뷰가 많았어요.
+- [미니 전자레인지(소형 전자레인지)](https://dealcode-kr.github.io/review/microwave/#s2): 20리터 제품이 셋이에요.
+- [오븐 전자레인지(오븐레인지·에어프라이어 겸용)](https://dealcode-kr.github.io/review/microwave/#s3): 겸용은 2위 삼성 비스포크 큐커 32L(영상 만든 시점 429,000원)예요.
+- [1인용 전자레인지(원룸 전자레인지)](https://dealcode-kr.github.io/review/microwave/#s4): 데우기만 하면 20리터인 4위 쿠쿠(70,000원, 다이얼)가 다섯 중 가장 쌌어요.
+- [원룸 청소기(원룸 무선청소기)](https://dealcode-kr.github.io/review/vacuum/#s1): 1위 홈리아 무선청소기 단품이에요(영상 만든 시점 109,900원). 1.9kg으로 다섯 중 가장 가볍고(같은 본체인 2위도 1.9kg), 센 단(3단)으로도 23분을 가요.
+- [가벼운 무선청소기](https://dealcode-kr.github.io/review/vacuum/#s2): 다섯 중 가장 가벼운 건 1위 홈리아 무선청소기 단품(1.9kg)이에요.
+- [가성비 무선청소기(저렴한 청소기)](https://dealcode-kr.github.io/review/vacuum/#s3): 다섯 중 가장 싼 건 1위 홈리아 단품(109,900원)이고, 스테이션이 필요하면 2위 홈리아 자동먼지비움(169,900원)이에요.
+
 ## BEST 5 정리
 
 - [온열찜질기 추천 순위 BEST 5](https://dealcode-kr.github.io/review/heatpad/): 2026년 11월 · 검증 리뷰 15,597건 비교
